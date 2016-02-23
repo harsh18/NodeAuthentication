@@ -1,0 +1,38 @@
+{
+  "name": "nodeauthentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.0.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.0.1",
+    "ejs": "^0.8.8",
+    "express-session": "^1.0.4",
+    "express": "^4.0.0",
+    "method-override": "^1.0.2",
+    "morgan": "^1.0.1",
+    "passport": "^0.1.18",
+    "mongoose": "^3.8.39",
+    "passport-facebook": "^1.0.3",
+    "passport-google-oauth": "^0.1.5",
+    "passport-local": "^0.1.6",
+    "passport-twitter": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsh18/NodeAuthentication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harsh18/NodeAuthentication/issues"
+  },
+  "homepage": "https://github.com/harsh18/NodeAuthentication#readme"
+}
